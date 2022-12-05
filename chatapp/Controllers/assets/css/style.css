@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:ital@1&display=swap');
+body{
+    background-color: rgb(43, 42, 42);
+}
+.main-container{
+    margin-top: 4em;
+    position: relative;
+    /* background-color: red; */
+    padding:25px;
+
+}
+.login-form{
+    
+    border: 3px solid rgb(3, 150, 47);
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    width: fit-content;
+    padding:20px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 6px 5px 20px 8px rgba(0, 0, 0, 0.973);
+    
+}
+input {
+
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+label{
+    /* float: left; */
+    font-size: 30px;
+    position: relative;
+
+}
+form{
+    text-align: center;
+    align-items: center;
+    width: 20em;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#loginBtn{
+    border-radius: 30px;
+    width:230px;
+    padding:1em;
+    margin-top: 1em;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 500;
+}
+#loginBtn:hover{
+    cursor: pointer;
+    background-color: royalblue;
+    color:whitesmoke;
+}
+#app{
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;  
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* registration CSS */
+.reg-container{
+   
+    margin-top: 2em;
+    position: relative;
+    /* background-color: red; */
+    padding:35px;
+}
+.reg-form{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+    border: 3px solid rgb(3, 150, 47);
+    /* background-color: rgb(20, 218, 152); */
+    width: 20em;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: 6px 5px 20px 8px rgb(0,0,0,0.5);
+    
+}
+#Reg{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+input{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+label{
+    
+    padding:15px;
+}
+select{
+    padding:5px;
+    font-size: 16px;
+}
+option{
+    padding:5px;
+}
+#regBtn{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    position: relative;
+    width: 16.5em;
+    height: 3em;
+}
+#regBtn:hover{
+    font-family: 'Roboto', sans-serif;
+    border-style:none;
+    cursor: pointer;
+    background-color: royalblue;
+    color:whitesmoke;
+}
+h4{
+    text-align:center;
+  
+
+}
+
+.notif{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    position: absolute;
+    background-color:  white;
+    
+}

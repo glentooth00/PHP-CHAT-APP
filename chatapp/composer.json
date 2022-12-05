@@ -1,0 +1,13 @@
+{
+    "name": "itglena/chatapp",
+    "description": "test",
+    "type": "sample",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itglena\\Chatapp\\": "app/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
